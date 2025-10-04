@@ -28,8 +28,7 @@ juce_add_plugin(milk
 
 target_sources(milk
     PRIVATE
-        src/main.cc
-        src/PluginProcessor.hh)
+        src/Main.cc)
 
 target_compile_definitions(milk
     PUBLIC

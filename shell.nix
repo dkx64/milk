@@ -37,6 +37,7 @@ pkgs.mkShell {
     patchelf
     gdb
     clang-tools
+    clang
   ];
 
   NIX_LDFLAGS = (toString [
